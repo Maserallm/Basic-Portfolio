@@ -4,8 +4,9 @@
 <head>
     <meta charset="utf-8">
     <title>Maserall's Portfolio</title>
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style2.css">
 </head>
 
 <body>
@@ -16,12 +17,12 @@
 
             <a href="index.html"><div id="about-relative">About</div></a>
     
-            <a href="contact.html"><div id="contact-relative2">Contact</div></a>
+            <a href="contact.html"><div id="contact-relative">Contact</div></a>
     
             <a href="portfolio.html"><div id="portfolio-relative">Portfolio</div></a>
     </div>
 
-  <div class="wrapper">
+  <div class="contact-wrapper">
 
     <section class="content">
 
@@ -29,15 +30,21 @@
             <h2>Contact</h2>
         </header>
 
-        <form action="/action_page.php">
+        <form class="my-form" action="/action_page.php">
             Name:<br>
-            <input name="name" type="text" placeholder="Your Name" class="form-name"><br>
+            <div class="form-group">
+            <input name="name" type="text" placeholder="Your Name" class="form-name">
+            </div><br>
 
+            <div class="form-group">
             Email:<br>
-            <input name="email" type="text" placeholder="example@gmail.com" class="form-email"><br>
+            <input name="email" type="text" placeholder="example@gmail.com" class="form-email">
+            </div><br>
 
+            <div class="form-group">
             Message:<br>
-            <input name="message" type="text" placeholder="Write Message" class="form-message"><br><br>
+            <input name="message" type="text" placeholder="Write Message" class="form-message">
+            </div><br><br>
 
             <input type="submit" value="Submit" class="form-submit">
         </form>
@@ -48,7 +55,7 @@
   </div>  
 
   <div>
-        <footer>Copyright@</footer>
+    <footer>Copyright@</footer>
   </div>
 
 </body>
