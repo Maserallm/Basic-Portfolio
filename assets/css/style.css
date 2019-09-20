@@ -26,11 +26,15 @@ body {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
+a:hover {
+    background: #cccccc;
+}
+
 a:visited {
     color: currentColor;
 }
 
-a:hover {
+.links:default {
     color: black;
 }
 

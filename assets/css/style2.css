@@ -1,6 +1,9 @@
 p {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     margin-top: 30px;
+    line-height: 20px;
+    word-spacing: 2px;
+    font-weight: 100;
 }
 
 footer {
@@ -34,7 +37,7 @@ footer {
 }
 
 .portfolio-wrapper {
-    /* border: solid #dddddd; */
+    /* border: round solid #dddddd; */
     background: #f9f9f9f9;
     contain: content;
     width: 960px;
@@ -42,9 +45,9 @@ footer {
     margin: 0 auto;
 }
 
-
 .content h2 {
     color: #4aaaa5;
+    margin: 10px;
     padding: 20px;
     border-bottom: solid #cccccc;
     font-weight: bold;
@@ -69,19 +72,56 @@ footer {
     width: 80%;
 }
 
-/* .form-message { */
-    width: 80%;
+#form-message {
+    height: 100px;
+    width: 82%;
 }
 
+.form-submit {
+    padding: 13px 35px;
+    background: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    font-weight: 500;
+}
+
+.desc1 {
+    position: relative;
+    bottom: 270px;
+    background: rgba(204, 204, 204, .4);
+}
+
+.desc2{
+    position: relative;
+    bottom: 140px;
+    background:  rgba(204, 204, 204, .4);
+}
+
+.desc3 {
+    position: relative;
+    bottom: 110px;
+    background: rgba(204, 204, 204, .4);
+}
 
 div.gallery {
     margin: 20px;
     border: 1px solid #cccccc;
+    font-family: "lato", "arial", sans-serif;
+    text-transform: uppercase; 
+    text-align: center;
+    align-content: center;
     float: left;
-    width: 180px;
+    contain: content;
+    width: 400px;
+    height: 200px;
 }
 
 div.gallery img {
     width: 100%;
     height: auto;
+}
+
+#wm {
+    position: relative;
+    top: -100px;
 }
