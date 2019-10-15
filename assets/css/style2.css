@@ -41,7 +41,7 @@ footer {
     background: #f9f9f9f9;
     contain: content;
     width: 960px;
-    height: 600px;
+    height: 100%;
     margin: 0 auto;
 }
 
@@ -91,7 +91,7 @@ footer {
     background: rgba(204, 204, 204, .4);
 }
 
-.desc2{
+.desc2 {
     position: relative;
     bottom: 140px;
     background:  rgba(204, 204, 204, .4);
